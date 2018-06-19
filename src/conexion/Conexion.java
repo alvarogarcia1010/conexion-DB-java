@@ -45,9 +45,9 @@ public class Conexion {
     //CREDENCIALES
     private void cargarCredenciales(){
         this.user = "root";
-        this.pass = "";
+        this.pass = "6ce69ba8";
         this.driver = "com.mysql.jdbc.Driver";
-        this.url = "jdbc:mysql://localhost/filtros";
+        this.url = "jdbc:mysql://localhost:3206/filtros";
     }
     
     public Connection getCnx(){
