@@ -47,7 +47,7 @@ public class Conexion {
         this.user = "root";
         this.pass = "6ce69ba8";
         this.driver = "com.mysql.jdbc.Driver";
-        this.url = "jdbc:mysql://localhost:3206/filtros";
+        this.url = "jdbc:mysql://localhost:3306/filtros";
     }
     
     public Connection getCnx(){

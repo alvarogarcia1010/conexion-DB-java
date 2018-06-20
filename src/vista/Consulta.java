@@ -46,6 +46,7 @@ public class Consulta extends JFrame{
         Container container = getContentPane();
         container.add(lblCodigo);
         container.add(lblMarca);
+        container.add(lblStock);
         container.add(lblExistencia);
         container.add(codigo);
         container.add(marca);
@@ -60,7 +61,6 @@ public class Consulta extends JFrame{
         container.add(table);
         setSize(600,600);
         eventos();
-        System.out.println("hola");
     }
 
     private void agregarLabels() {
@@ -100,6 +100,7 @@ public class Consulta extends JFrame{
         
         this.codigo.setBounds(140, 10, ANCHOC, ALTOC);
         this.marca.setBounds(140, 60, ANCHOC, ALTOC);
+        this.stock.setBounds(140, 100, ANCHOC, ALTOC);
         this.si.setBounds(140,140,50,ALTOC);
         this.no.setBounds(210,140,50,ALTOC);
         

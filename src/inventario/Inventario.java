@@ -5,6 +5,8 @@
  */
 package inventario;
 
+import vista.Consulta;
+
 /**
  *
  * @author Alvaro García <alvarogarcia1010 at github.com>
@@ -17,6 +19,8 @@ public class Inventario {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Consulta c = new Consulta();
+        c.setVisible(true);
     }
     
 }
